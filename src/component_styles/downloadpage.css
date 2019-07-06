@@ -1,0 +1,30 @@
+.history--left {
+  width: 5%;
+}
+
+
+.history--left {
+ position: fixed;
+ top: 95%;
+ left: 95%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  fill: #303030;
+  border: 3px solid #303030;
+  border-radius: 50%;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.history--left:hover {
+    -webkit-transform: translate(-50%, -80%) rotate(360deg);
+            transform: translate(-50%, -80%) rotate(360deg);
+  }
+@media (max-width: 640px) {
+  .history--left {
+    -webkit-transform: translate(-50%, -50%) rotate(90deg);
+            transform: translate(-50%, -50%) rotate(90deg);
+  }
+  .history--left {
+    top: 25%;
+  }
+}

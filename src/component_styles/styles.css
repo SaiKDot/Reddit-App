@@ -1,0 +1,326 @@
+.mt-element-list {
+    width:100%;
+}
+.mt-element-list .list-default.mt-list-head .list-title {
+    margin: 0 0 .7em;
+    font-size: 18px
+}
+
+.mt-element-list .list-default.mt-list-head .list-date {
+    font-size: 12px
+}
+
+.mt-element-list .list-default.mt-list-head .list-pending {
+    margin-bottom: 10px
+}
+
+.mt-element-list .list-default.mt-list-head .list-count {
+    display: inline-block;
+    padding: 3px 7px
+}
+
+.mt-element-list .list-default.mt-list-head .list-count.last {
+    margin-bottom: 0
+}
+
+.mt-element-list .list-default.mt-list-head .list-label {
+    display: inline-block;
+    font-size: 12px
+}
+
+.mt-element-list .list-default.mt-list-container {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #e7ecf1;
+    padding: 15px
+}
+
+.mt-element-list .list-default.mt-list-container .mt-list-title {
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.mt-element-list .list-default.mt-list-container ul {
+    margin-bottom: 0;
+    padding: 0
+}
+
+.mt-element-list .list-default.mt-list-container ul>.mt-list-item {
+    list-style: none;
+    border-bottom: 1px solid;
+    border-color: #e7ecf1;
+    padding: 25px 0;
+    min-height: 45px
+}
+
+.mt-element-list .list-default.mt-list-container ul>.mt-list-item:first-child {
+    padding-top: 0
+}
+
+.mt-element-list .list-default.mt-list-container ul>.mt-list-item:last-child {
+    padding-bottom: 0;
+    border: none
+}
+
+.mt-element-list .list-default.mt-list-container ul>.mt-list-item>.list-icon-container {
+    border: 1px solid #e7ecf1;
+    border-radius: 50%!important;
+    padding: .9em;
+    float: left;
+    width: 45px;
+    height: 45px
+}
+
+.mt-element-list .list-default.mt-list-container ul>.mt-list-item>.list-icon-container>a {
+    color: #34495e
+}
+
+.mt-element-list .list-default.mt-list-container ul>.mt-list-item>.list-icon-container>a:hover {
+    color: #26C281;
+    text-decoration: none
+}
+
+.mt-element-list .list-default.mt-list-container ul>.mt-list-item>.list-icon-container.done {
+    border-color: #26C281
+}
+
+.mt-element-list .list-default.mt-list-container ul>.mt-list-item>.list-icon-container.done>a {
+    color: #26C281
+}
+
+.mt-element-list .list-default.mt-list-container ul>.mt-list-item>.list-icon-container.done>a:hover {
+    color: #26C281;
+    text-decoration: none
+}
+
+.mt-element-list .list-default.mt-list-container ul>.mt-list-item>.list-item-content {
+    padding: 0 75px 0 60px
+}
+
+.mt-element-list .list-default.mt-list-container ul>.mt-list-item>.list-item-content>h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px
+}
+
+.mt-element-list .list-default.mt-list-container ul>.mt-list-item>.list-item-content>h3>a {
+    color: #34495e
+}
+
+.mt-element-list .list-default.mt-list-container ul>.mt-list-item>.list-item-content>h3>a:hover {
+    color: #26C281;
+    text-decoration: none
+}
+
+.mt-element-list .list-default.mt-list-container ul>.mt-list-item>.list-item-content>p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.mt-element-list .list-default.mt-list-container ul>.mt-list-item>.list-datetime {
+    text-align: right;
+    float: right;
+    width: 60px
+}
+
+.mt-element-list .list-default.ext-1.mt-list-container {
+    padding: 15px 0 0
+}
+
+.mt-element-list .list-default.ext-1.mt-list-container .mt-list-title {
+    padding: 0 15px 15px
+}
+
+.mt-element-list .list-default.ext-1.mt-list-container ul>.mt-list-item {
+    padding: 15px;
+     
+}
+
+.mt-element-list .list-default.ext-1.mt-list-container ul>.mt-list-item:hover {
+    background-color: #e5e5e5
+}
+
+.mt-element-list .list-default.ext-1.mt-list-container ul>.mt-list-item.done {
+    border-color: #26C281 #26C281 #e7ecf1
+}
+
+.mt-element-list .list-default.ext-1.mt-list-container ul>.mt-list-item.done:hover {
+    background-color: #96ebc8
+}
+
+.mt-element-list .list-default.ext-1.mt-list-container ul>.mt-list-item>.list-icon-container {
+    border: none
+}
+
+.mt-element-list .list-default.group .list-toggle-container:active,.mt-element-list .list-default.group .list-toggle-container:focus,.mt-element-list .list-default.group .list-toggle-container:hover {
+    text-decoration: none
+}
+
+.mt-element-list .list-default.group .list-toggle-container .list-toggle {
+    padding: 15px;
+    background-color: #2F353B;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none
+}
+
+.mt-element-list .list-default.group .list-toggle-container .list-toggle.done {
+    background-color: #26C281
+}
+
+.mt-element-list .list-simple.mt-list-container {
+  /*  border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;*/
+   /* border-color: #e7ecf1;*/
+    padding: 15px
+}
+
+.mt-element-list .list-simple.mt-list-container ul {
+    margin-bottom: 0;
+    padding: 0
+}
+
+.mt-element-list .list-simple.mt-list-container ul>.mt-list-item {
+    list-style: none;
+    border-bottom: 1px solid;
+    /*border-color: #e7ecf1;*/
+    padding: 15px 0
+}
+
+.mt-element-list .list-simple.mt-list-container ul>.mt-list-item:first-child {
+    padding-top: 0
+}
+
+.mt-element-list .list-simple.mt-list-container ul>.mt-list-item:last-child {
+    padding-bottom: 0;
+    border: none
+}
+
+.mt-element-list .list-simple.mt-list-container ul>.mt-list-item>.list-icon-container {
+    font-size: 14px;
+    float: left
+}
+
+.mt-element-list .list-simple.mt-list-container ul>.mt-list-item>.list-icon-container>a {
+    color: #34495e
+}
+
+.mt-element-list .list-simple.mt-list-container ul>.mt-list-item>.list-icon-container>a:hover {
+    color: #26C281;
+    text-decoration: none
+}
+
+.mt-element-list .list-simple.mt-list-container ul>.mt-list-item>.list-icon-container.done,.mt-element-list .list-simple.mt-list-container ul>.mt-list-item>.list-icon-container.done>a {
+    color: #26C281
+}
+
+.mt-element-list .list-simple.mt-list-container ul>.mt-list-item>.list-icon-container.done>a:hover {
+    color: #26C281;
+    text-decoration: none
+}
+
+.mt-element-list .list-simple.mt-list-container ul>.mt-list-item>.list-item-content {
+    padding: 0 75px 0 60px
+}
+
+.mt-element-list .list-simple.mt-list-container ul>.mt-list-item>.list-item-content>h3 {
+    margin: 0;
+    font-size: 18px
+}
+
+.mt-element-list .list-simple.mt-list-container ul>.mt-list-item>.list-item-content>h3>a {
+    color: #34495e
+}
+
+.mt-element-list .list-simple.mt-list-container ul>.mt-list-item>.list-item-content>h3>a:hover {
+    color: #26C281;
+    text-decoration: none
+}
+
+.mt-element-list .list-simple.mt-list-container ul>.mt-list-item>.list-datetime {
+    text-align: right;
+    float: right;
+    width: 60px
+}
+
+.mt-element-list .list-simple.mt-list-head {
+    padding: 15px
+}
+
+.mt-element-list .list-simple.mt-list-head .list-title {
+    margin: 0;
+    padding-right: 85px
+}
+
+.mt-element-list .list-simple.mt-list-head .list-date {
+    font-size: 12px;
+    opacity: .8;
+    float: right;
+    width: 75px
+}
+
+.mt-element-list .list-simple.ext-1.mt-list-container {
+    padding: 0
+}
+
+.mt-element-list .list-simple.ext-1.mt-list-container ul>.mt-list-item {
+    padding: 15px;
+    
+}
+
+.list-item-content p {
+   font-size: 18px;
+   font-family: helvetica;
+}
+
+.mt-element-list .list-simple.ext-1.mt-list-container ul>.mt-list-item:hover {
+    background-color: #e5e5e5
+}
+
+.mt-element-list .list-simple.ext-1.mt-list-container ul>.mt-list-item.done {
+    border-color: #26C281 #26C281 #e7ecf1
+}
+
+.mt-element-list .list-simple.ext-1.mt-list-container ul>.mt-list-item.done:hover {
+    background-color: #96ebc8
+}
+
+.mt-element-list .list-simple.group .list-toggle-container:active,.mt-element-list .list-simple.group .list-toggle-container:focus,.mt-element-list .list-simple.group .list-toggle-container:hover {
+    text-decoration: none
+}
+
+.mt-element-list .list-simple.group .list-toggle-container .list-toggle {
+    padding: 15px;
+    background-color: #34495e;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none
+}
+
+.mt-element-list .list-simple.group .list-toggle-container .list-toggle.done {
+    background-color: #26C281
+}
+
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: 7px !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid rgba(0,0,0,.125)!important;
+}
+
+.list-group-item p {
+    font-size: 18px;
+    font-family:Helvetica;
+    color: #fff
+}
+.users-check {
+    height: 16px;
+    width: 16px;
+}
